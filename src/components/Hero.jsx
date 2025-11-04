@@ -49,7 +49,7 @@ export default function Hero() {
     <FaLinkedin />
   </a>
   <a
-    href="https://github.com/your-github"
+    href="https://github.com/WasuWeerakoon"
     target="_blank"
     rel="noopener noreferrer"
     className="hover:text-white transition-colors"
