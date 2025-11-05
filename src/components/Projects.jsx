@@ -7,14 +7,14 @@ export default function Projects() {
       desc: "Real estate platform with bidding & wishlist features",
       img: "/projectpics/estateease.jpg",
       tech: "HTML, CSS, JavaScript,MYSQL",
-      github: "https://github.com/username/BuyBliss",
+      github: "https://github.com/WasuWeerakoon/EstateEase-PHP.git",
     },
     {
       title: "Seagrass Sri Lanka",
       desc: "Seagrass in Sri Lanka: vital underwater plants that support marine biodiversity and coastal ecosystems.",
       img: "/projectpics/seagrasss.png",
       tech: "HTML, CSS, JavaScript, PHP, MySQL, Bootstrap",
-      github: "https://github.com/username/estateEase",
+      github: "https://polite-desert-02a5b7610.2.azurestaticapps.net/",
     },
     {
       title: "Job Application Portal",
