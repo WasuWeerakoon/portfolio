@@ -22,6 +22,21 @@ export default function Certifications() {
       description: "Acquired foundational knowledge and essential skills in Artificial Intelligence.",
       img: "/certs/AI.jpg",
     },
+    {
+      title: "AI/ML Engineer",
+      description: "Acquired comprehensive knowledge and practical skills in Artificial Intelligence and Machine Learning engineering.",
+      img: "/certs/AIML Engineer.jpg",
+    },
+    {
+      title: "Introduction to Jira",
+      description: "Acquired foundational knowledge and practical skills in Jira for effective project tracking and management.",
+      img: "/certs/Introduction to Jira.jpg",
+    },
+    {
+      title: "Project Management",
+      description: "Gained essential understanding of Project Management principles and methodologies for successful project execution.",
+      img: "/certs/Project Management.jpg",
+    },
   ];
 
   const [selectedCert, setSelectedCert] = useState(null);
