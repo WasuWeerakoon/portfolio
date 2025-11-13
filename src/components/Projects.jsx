@@ -37,6 +37,13 @@ export default function Projects() {
       tech: "ESP32 Devkit V1, AD8232 ECG Sensor, AD8226 EMG Sensor, Arduino IDE, Android Studio",
       github: "https://www.youtube.com/watch?v=yU_ihv5Gjkc",
     },
+     {
+      title: "FingerPrint Identifier",
+      desc: "Our project used a fingerprint reader and an ESP32 microcontroller to develop a secure user authentication system. It is able to do fingerprint enrollment, saving data in an SD card, and simple verification for access control.",
+      img: "/projectpics/Finger Print.png",
+      tech: "Bread Board, Fingerprint Sensor: Adafruit DY50 2V1, ESP32 Board, SD Card Reader Module, USB Cable, Proteus, Arduino IDE",
+      github: "https://github.com/PasanRamyanath/Fingerprint-scanner-using-ESP32",
+    },
   ];
 
   return (

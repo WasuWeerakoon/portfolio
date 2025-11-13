@@ -13,7 +13,7 @@ export default function Skills() {
     { name: "React", icon: <FaReact className="text-blue-600" /> },
     { name: "SQL", icon: <SiMysql className="text-green-600" /> },
     { name: "Python", icon: <FaPython className="text-yellow-400" /> },
-    { name: "MS Office", icon: <FaFileAlt className="text-blue-700" /> }, // Using generic file icon
+    { name: "MS Office", icon: <FaFileAlt className="text-blue-700" /> },
   ];
 
   const softSkills = [
@@ -28,14 +28,19 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="min-h-screen flex flex-col justify-center items-center bg-gray-100 px-6 py-24"
+      className="min-h-screen flex flex-col justify-center items-center px-6 py-24"
+      style={{ backgroundColor: "#456882" }} // outer background
     >
-      <h2 className="text-4xl font-bold mb-16 text-blue-900">Skills</h2>
+      <h2 className="text-4xl font-bold mb-16 text-white">Skills</h2>
 
-      <div className="bg-gradient-to-br from-blue-50 via-blue-100 to-blue-50 p-16 rounded-3xl shadow-xl w-full max-w-6xl space-y-12">
+      {/* Large inner container wrapping both Technical and Soft Skills */}
+      <div
+        className="p-16 rounded-3xl shadow-xl w-full max-w-6xl space-y-12"
+        style={{ backgroundColor: "#7FA6C1" }} // softer inner box color
+      >
         {/* Technical Skills */}
         <div>
-          <h3 className="text-2xl font-semibold mb-6 text-blue-800">Technical Skills</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-white">Technical Skills</h3>
           <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
             {technicalSkills.map((skill) => (
               <div
@@ -43,7 +48,7 @@ export default function Skills() {
                 className="flex flex-col items-center justify-center bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300"
               >
                 <div className="text-5xl mb-3">{skill.icon}</div>
-                <h4 className="text-blue-900 font-semibold">{skill.name}</h4>
+                <h4 className="text-[#456882] font-semibold">{skill.name}</h4>
               </div>
             ))}
           </div>
@@ -51,7 +56,7 @@ export default function Skills() {
 
         {/* Soft Skills */}
         <div>
-          <h3 className="text-2xl font-semibold mb-6 text-blue-800">Soft Skills</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-white">Soft Skills</h3>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
             {softSkills.map((skill) => (
               <div
@@ -59,7 +64,7 @@ export default function Skills() {
                 className="flex flex-col items-center justify-center bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300"
               >
                 <div className="text-5xl mb-3">{skill.icon}</div>
-                <h4 className="text-blue-900 font-semibold">{skill.name}</h4>
+                <h4 className="text-[#456882] font-semibold">{skill.name}</h4>
               </div>
             ))}
           </div>
