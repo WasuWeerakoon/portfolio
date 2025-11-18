@@ -37,6 +37,11 @@ export default function Certifications() {
       description: "Gained essential understanding of Project Management principles and methodologies for successful project execution.",
       img: "/certs/Project Management.jpg",
     },
+    {
+      title: "Software Quality Assurance",
+      description: "Earned a Software Quality Assurance certification, enabling me to identify defects early, enhance system quality, and contribute to efficient, reliable software development.",
+      img: "/certs/SQA.jpg",
+    },
   ];
 
   const [selectedCert, setSelectedCert] = useState(null);
@@ -48,8 +53,8 @@ export default function Certifications() {
     >
       <h2 className="text-4xl font-bold mb-16 text-blue-900">Certifications</h2>
 
-      {/* Outer container box with #90CAF9 */}
-      <div className="bg-[#90CAF9] p-12 rounded-3xl shadow-xl w-full max-w-6xl">
+      {/* Outer container box with #1D546C */}
+      <div className="bg-[#1D546C] p-12 rounded-3xl shadow-xl w-full max-w-6xl">
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
           {certs.map((cert) => (
             <div
